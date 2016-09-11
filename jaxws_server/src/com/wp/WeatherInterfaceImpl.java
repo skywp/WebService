@@ -1,5 +1,8 @@
 package com.wp;
 
+import javax.jws.WebService;
+
+@WebService
 public class WeatherInterfaceImpl implements WeatherInterface{
 
 	@Override
