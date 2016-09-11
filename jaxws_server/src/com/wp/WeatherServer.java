@@ -10,6 +10,7 @@ public class WeatherServer {
 		//第二个参数:使用@WebService标记的服务对象
 		Endpoint.publish("http://127.0.0.1:12345/weather", new WeatherInterfaceImpl());
 
+		
 	}
 
 }
